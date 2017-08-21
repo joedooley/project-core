@@ -111,7 +111,8 @@ function init_files() {
 		'general',
 		'gravity-forms',
 		'yoast-seo',
-		'acf/options-page'
+		'acf/options-page',
+		'acf/general'
 	];
 
 	load_specified_files( $filenames );
